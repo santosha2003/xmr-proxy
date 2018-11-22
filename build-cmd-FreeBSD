@@ -1,0 +1,11 @@
+#!/bin/sh
+#build-cmd
+git checkout -f
+git fetch
+git pull
+mkdir build
+cd build
+# (patch include header /usr/include/uuid.h)
+cmake ..
+#-DCMAKE_EXE_LINKER_FLAGS=-L/usr/local/lib -DCMAKE_SHARED_LINKER_FLAGS=-L/usr/local/lib
+make
