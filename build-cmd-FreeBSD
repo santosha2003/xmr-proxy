@@ -1,8 +1,12 @@
 #!/bin/sh
 #build-cmd
-git checkout -f
-git fetch
-git pull
+#git checkout -f
+#git fetch
+git commit -m "up"
+git pull origin dev
+git push xmrproxy
+
+# git pull origin master
 mkdir build
 cd build
 # (patch include header /usr/include/uuid.h)

@@ -1,0 +1,2 @@
+cd ~/xmrig-proxy/build
+gnome-terminal -- ./xmrig-proxy -r 2 -R 1 -b 0.0.0.0:3336 -b 0.0.0.0:3337  -o masari.ingest.cryptoknight.cc:5555 -u 5hvLre4ry2MALdUE7wF2TDj5EHGsnuMWWVwjuP1fX3oaMAxkZfc6FEcLoW3ZsYPZmEQ7yUAqpnScsN9D4eQ2PptZ5e1DGKQ.170001 -p x -k --variant MSR --verbose
